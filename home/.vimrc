@@ -42,3 +42,4 @@ noremap <leader>pp "*p
 
 " Autosave
 let g:auto_save = 1
+

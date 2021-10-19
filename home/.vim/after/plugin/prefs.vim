@@ -1,7 +1,3 @@
-" For Solarized colour scheme: background could be light or dark
-set background=dark
-colorscheme solarized
-
 set ts=4
 set expandtab
 "
@@ -18,6 +14,8 @@ au! BufRead,BufNewFile *.wadl setf xml
 au! BufRead,BufNewFile *.wsdd setf xml
 
 au! BufRead,BufNewFile *.gradle setf groovy
+
+au! BufRead,BufNewFile *.md.erb set filetype=markdown.eruby
 
 " Clear search highlighting after a search by pressing <CR> (Enter)
 nnoremap <CR> :noh<CR><CR>
