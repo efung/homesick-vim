@@ -19,3 +19,6 @@ au! BufRead,BufNewFile *.md.erb set filetype=markdown.eruby
 
 " Clear search highlighting after a search by pressing <CR> (Enter)
 nnoremap <CR> :noh<CR><CR>
+
+autocmd BufNewFile,BufRead *.conf set filetype=hocon
+
